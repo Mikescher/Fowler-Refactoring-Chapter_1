@@ -23,7 +23,7 @@ class Customer {
 
         while (enum_rentals.hasMoreElements()) {
             Rental each = (Rental) enum_rentals.nextElement();
-            double thisAmount = amountFor(each);
+            double thisAmount = each.getCharge();
             // add frequent renter points
             frequentRenterPoints ++;
             // add bonus for a two day new release rental
@@ -38,9 +38,6 @@ class Customer {
         result += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
         return result;
     }
-	private double amountFor(Rental each) {
-		return each.getCharge();
-	}
     
 }
     
