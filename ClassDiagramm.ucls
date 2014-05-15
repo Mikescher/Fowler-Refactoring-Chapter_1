@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="Movie" project="Code_Fowler" file="/Code_Fowler/src/Movie.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="448" y="368"/>    
+    <position height="-1" width="-1" x="447" y="367"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="Rental" project="Code_Fowler" file="/Code_Fowler/src/Rental.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="257" y="127"/>    
+    <position height="-1" width="-1" x="259" y="122"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
